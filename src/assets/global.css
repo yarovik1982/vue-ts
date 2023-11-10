@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   font-family: 'Open Sans', sans-serif;
+   height: 100%;
+   background: rgba(0, 0, 0, .2);
+}
+ul,li{
+   list-style-type: none;
+}
+.app{
+   max-width: 960px;
+   margin: 0 auto;
+}
+.tools{
+   text-align: center;
+   padding-top: 16px;
+}
+.tools  button{
+   margin-right: 16px;
+   padding: 4px;
+   border: 0;
+   transition: all .3s linear;
+   /*background: rgb(190, 120, 255);
+   */border-radius: 4px;
+   cursor: pointer;
+   -webkit-transition: all .3s linear;
+   -moz-transition: all .3s linear;
+   -ms-transition: all .3s linear;
+   -o-transition: all .3s linear;
+}
+.tools button:hover{
+   box-shadow: 0 0 3px 3px rgb(190, 120, 255);
+}
+.tools button:active{
+   box-shadow:inset 0 0 3px 3px rgb(190, 120, 255);
+
+}
